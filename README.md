@@ -3,14 +3,11 @@
 This code applies K-Means and Principal Component Analysis (PCA) to cluster cryptocurrencies based on performance over 7 different holding periods. The analysis could be replicable to other financial series, with large amount of data thanks to the use of PCA, which reduces the dimensionality of the data. The analysis found the same number and composition of clusters (4) when using the original standardized data of 7 series of returns than when using its 3 principal components. These three principal components explained 90% of the variance of the cryptocurrencies' returns.
 
 ## Using this tool:
-Technologies used in the analysis are:
-Scikit-learn machine learning tools for the unsupervised data analysis. Tools such as Cluster, StandardScaler, Preprocessing, Decomposition, Data Standardization, and Principal Component Analysis.
+Technologies used in the analysis are Scikit-learn machine learning tools for the unsupervised data analysis. 
 
-Pandas, NumPy and Path libraries for general coding,
-hvPlot, Plotly Express, Holoviews for visualizations
+Other tools used: Cluster, StandardScaler, Preprocessing, Decomposition, Data Standardization, and Principal Component Analysis, Pandas, NumPy, hvPlot, Plotly Express, and Holoviews.
 
-The main file is: [Crypto_Clustering_starter_code.ipynb](https://github.com/adampaganini/CryptoClustering/blob/main/Crypto_Clustering_starter_code.ipynb) which is a Jupyter Notebook with a pre-run code. You can go through it and see code as well as results.
-If you look to reuse the code, and do not have experience on jupyter lab, you can refer [this tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/).
+The analysis was done in the file titled [Crypto_Clustering_starter_code.ipynb](https://github.com/adampaganini/CryptoClustering/blob/main/Crypto_Clustering_starter_code.ipynb) which is a Jupyter Notebook with a pre-run code. You can go through it and see code as well as results. If you look to reuse the code, and do not have experience on Jupyter lab, you can refer [this tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/).
 
 For information about K-Means, inertia definition, and other type of clustering techniques you can look [here](https://scikit-learn.org/stable/modules/clustering.html).
 
